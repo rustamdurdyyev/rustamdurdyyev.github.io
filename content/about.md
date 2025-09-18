@@ -1,14 +1,7 @@
-+++
-title = "About"
-description = "About Rustam"
-date = "2025-09-07"
-aliases = [ "pubs"]
-author = "Rustam Authors"
-+++
+## About Me
 
+I am a **Data Scientist and Researcher** with a strong foundation in **Physics and Engineering (Dr.-Ing.)**, passionate about solving complex problems in both science and industry. My work combines **computational modeling, first-principles simulations, and machine learning**, bridging the gap between theoretical research and practical applications. I enjoy tackling challenges in **physics, materials science, and data-driven analytics**, turning complex datasets into meaningful insights.  
 
-All fields of science or other topics are attainable. Just get through these paths parallelly, believe in yourself, make your comfort zone and take time. From this philosophical reasoning, I believe all achievements come from just taking time in your comfort zone.
+You can explore my **[Publications & Honors](/publications/)** to see my research contributions, and I warmly invite you to visit my **[blog](/posts/)**, where I share projects, experiments, and reflections on scientific discoveries, data science, and technology, as well as life experiences. Outside of work, I enjoy **hiking, running, and playing football**, which helps me stay active, curious, and creative in both my professional and personal life.  
 
-At the moment, I pass through the path to physics. I like problem-solving and discussing physical reasoning—one of my open questions to discuss and which I can discuss endlessly. If the formula is not working, this is metaphysics, not uncertainty or probability. To continue expression is necessary to adapt with the probability formula. 
-
-The following stages of AI will involve not only data analysis but also making decisions. I am looking for unlearning stages of AI.
+I love collaborating with others, solving tricky problems, and turning ideas into results. Whether it’s analyzing data, designing experiments, or exploring new technologies, I’m driven by curiosity, learning, and making an impact in both research and real-world applications.

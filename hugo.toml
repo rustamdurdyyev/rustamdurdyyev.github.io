@@ -5,7 +5,7 @@
 
 
 baseURL = "http://www.example.com"
-title = "Rustam Durdyyev"
+title = "Rustam's Space"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -32,7 +32,7 @@ author = "Rustam Durdyyev"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Rustam's personal website"
 keywords = "blog,developer,personal"
-info = ["Data Scientist", "Scientist"]
+info = ["Data Scientist", "Researcher"]
 avatarURL = "images/Rustam_profile.JPG"
 #gravatar = "john.doe@example.com"
 dateFormat = "September 7, 2025"
@@ -151,19 +151,19 @@ author = "authors"
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
-url = "https://github.com/rustam.durdyyev/"
+url = "https://github.com/rustamdurdyyev/"
 
-[[params.social]]
-name = "Gitlab"
-icon = "fa-brands fa-gitlab fa-2x"
-weight = 2
-url = "https://gitlab.com/rustamdurdyyev/"
+#[[params.social]]
+#name = "Gitlab"
+#icon = "fa-brands fa-gitlab fa-2x"
+#weight = 2
+#url = "https://gitlab.com/rustamdurdyyev/"
 
 [[params.social]]
 name = "Twitter"
 icon = "fa-brands fa-x-twitter fa-2x"
 weight = 3
-url = "https://twitter.com/johndoe/"
+url = "https://twitter.com/rustamdurdyyev/"
 
 [[params.social]]
 name = "LinkedIn"
@@ -171,19 +171,19 @@ icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
 url = "https://www.linkedin.com/in/rustam-durdyyev/"
 
-[[params.social]]
-name = "Medium"
-icon = "fa-brands fa-medium fa-2x"
-weight = 5
-url = "https://medium.com/@johndoe"
+#[[params.social]]
+#name = "Medium"
+#icon = "fa-brands fa-medium fa-2x"
+#weight = 5
+#url = "https://medium.com/@johndoe"
 
-[[params.social]]
-name = "RSS"
-icon = "fa-solid fa-rss fa-2x"
-weight = 6
-url = "https://myhugosite.com/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+#[[params.social]]
+#name = "RSS"
+#icon = "fa-solid fa-rss fa-2x"
+#weight = 6
+#url = "https://myhugosite.com/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
@@ -198,13 +198,13 @@ name = "Blog"
 weight = 2
 url = "posts/"
 
-[[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
+#[[languages.en.menu.main]]
+#name = "Projects"
+#weight = 3
+#url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Publications"
+name = "Publications & Honors"
 weight = 5
 url = "publications/"
 
