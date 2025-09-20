@@ -1,7 +1,7 @@
-+++
+---
 #authors = ["Rustam"]
-title = "🎱✨ Right-Angle Billiard"
-#date = "2025-08-07"
+date: "2025-09-04"
+title: "🎱✨ Right-Angle Billiard"
 #description = "Right-Angle Billiard: Collision Angles Explained"
 #tags = [
 #    "hugo",
@@ -13,10 +13,10 @@ title = "🎱✨ Right-Angle Billiard"
 #    "theme demo",
 #]
 #series = ["Theme Demo"]
-+++
+---
 
 Ever noticed that when you kick the billiard ball off-center, there’s only one possible result?
----
+
 
 ## Solution
 
@@ -27,7 +27,7 @@ Ever noticed that when you kick the billiard ball off-center, there’s only one
 - The collision is **elastic**, meaning **no energy is lost**, and the balls bounce perfectly.  
 - The moving ball can hit the stationary ball **directly in the center** (head-on) or **off-center** (glancing).
 
----
+
 
 ### Step 2: Momentum
 
@@ -41,7 +41,7 @@ Ever noticed that when you kick the billiard ball off-center, there’s only one
   - Some momentum goes forward for each ball.  
   - Some momentum goes sideways if the hit is off-center.
 
----
+
 
 ### Step 3: Energy
 
@@ -49,7 +49,7 @@ Ever noticed that when you kick the billiard ball off-center, there’s only one
 - This means the total motion energy before and after the collision is the same.  
 - The moving ball transfers some of its energy to the stationary ball, depending on how off-center the hit is.  
 
----
+
 
 ### Step 4: Types of Collision and Resulting Angles
 
@@ -65,7 +65,7 @@ Ever noticed that when you kick the billiard ball off-center, there’s only one
 
 > For collisions in between these two extremes, the angle will vary between 0 and 90 degrees, depending on exactly how far from the center the hit occurs.
 
----
+
 
 ### Step 5: Summary Table
 
@@ -74,7 +74,7 @@ Ever noticed that when you kick the billiard ball off-center, there’s only one
 | Head-on             | 0°               |
 | Perfect Off-Center  | 90°              |
 
----
+
 
 ### Key Takeaways
 
