@@ -32,7 +32,7 @@ author = "Rustam Durdyyev"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Rustam's personal website"
 keywords = "blog,developer,personal"
-info = ["Data Scientist", "Researcher"]
+info = ["Data Scientist", "Researcher", "Computational Scientist"]
 avatarURL = "images/Rustam_profile.JPG"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
