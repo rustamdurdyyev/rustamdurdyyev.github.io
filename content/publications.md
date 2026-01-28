@@ -18,11 +18,11 @@ author = "Rustam Authors"
   DOI: [10.1021/acs.analchem.5c01710](https://doi.org/10.1021/acs.analchem.5c01710)<br />
 
 * **Tavera-Méndez CL., Durdyyev R., Agüero-Gamboa P., Sen D., Hantal G., Wisser FM., Zhai Z., Koller TM., Hartmann M., Smith AS., Wisser D.**<br />
-  [NMR spectroscopy and molecular dynamics simulations of xenon adsorbed on supported ionic liquid phase (SILP) material](#)<br />
+  *NMR spectroscopy and molecular dynamics simulations of xenon adsorbed on supported ionic liquid phase (SILP) material*<br />
   In: preparation <br />
 
 * **Durdyyev R., Wick C., Hantal G., Smith AS.**<br />
-  [Consistent classical model development of the functionalized magic gold nanocluster Au25S18: Effect of Oxidation state and substitution length](#)<br />
+  *Consistent classical model development of the functionalized magic gold nanocluster Au25S18: Effect of Oxidation state and substitution length*<br />
   In: preparation <br />
 
 ## 2024
