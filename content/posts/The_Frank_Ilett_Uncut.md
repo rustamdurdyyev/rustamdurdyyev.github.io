@@ -7,6 +7,7 @@ title: "⚽ Frank Ilett & The Uncut Hair Bet"
 <head>
 <meta charset="UTF-8">
 <title>⚽ Frank Ilett & The Uncut Hair Bet: Manchester United Win Predictor</title>
+<img src="/images/frank_illet.png" alt="A soccer pitch for an international match" style="width:100%; max-width:800px; display:block; margin:20px auto; border-radius:12px;">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
