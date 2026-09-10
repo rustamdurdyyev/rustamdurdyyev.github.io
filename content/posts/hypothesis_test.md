@@ -1,5 +1,7 @@
 ---
 date: "2025-08-07"
+description: "A statistical test comparing goal-scoring patterns in women's and men's FIFA World Cup matches."
+featuredImage: "/images/soccer-pitch.jpg"
 title: "⚽📊 Hypothesis Test: Women's vs Men's Soccer"
 ---
 

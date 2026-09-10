@@ -1,5 +1,7 @@
 ---
 date: "2026-02-13"
+description: "A playful Manchester United win-streak predictor inspired by Frank Ilett's no-haircut challenge."
+featuredImage: "/images/frank_illet.png"
 title: "⚽ Frank Ilett & The Uncut Hair Bet"
 ---
 <!DOCTYPE html>

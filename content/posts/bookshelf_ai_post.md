@@ -1,5 +1,7 @@
 ---
 date: "2026-05-25"
+description: "A local AI workflow that reads book spines from a shelf photo and recommends new books from the collection."
+featuredImage: "/images/Bookshelf_AI.jpg"
 title: "📚 Bookshelf AI — Intelligent Book Discovery from a Photo"
 ---
 

@@ -1,0 +1,45 @@
+{{ define "title" }}Blogs - {{ .Site.Title }}{{ end }}
+{{ define "content" }}
+  <section class="container blog-list">
+    <header class="blog-list-header">
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">Blogs</a>
+      </h1>
+    </header>
+
+    {{ .Content }}
+
+    <div class="blog-grid">
+      {{- range .Pages.ByDate.Reverse -}}
+        {{- $link := .Params.externalLink | default .RelPermalink -}}
+        {{- $image := .Params.featuredImage | default .Params.image -}}
+        {{- $label := .Params.cardLabel | default "Post" -}}
+        <article class="blog-card">
+          <a class="blog-card-link" href="{{ $link }}">
+            {{ with $image }}
+              <div class="blog-card-media">
+                <img src="{{ . | relURL }}" alt="">
+              </div>
+            {{ else }}
+              <div class="blog-card-media blog-card-media-fallback" aria-hidden="true">
+                <span>{{ $label }}</span>
+              </div>
+            {{ end }}
+
+            <div class="blog-card-body">
+              <time class="blog-card-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+              </time>
+              <h2>{{ .Title }}</h2>
+              {{ with .Description }}
+                <p>{{ . }}</p>
+              {{ else }}
+                <p>{{ .Summary | plainify | truncate 145 }}</p>
+              {{ end }}
+            </div>
+          </a>
+        </article>
+      {{- end -}}
+    </div>
+  </section>
+{{ end }}

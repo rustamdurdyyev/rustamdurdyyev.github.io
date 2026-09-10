@@ -1,4 +1,9 @@
-## About Me
+---
+title: "About"
+build:
+  render: "never"
+  list: "never"
+---
 
 I am a **Data Scientist and Researcher** with a strong foundation in **Physics and Engineering (Dr.-Ing.)**, passionate about solving complex problems in both science and industry. My work combines **computational modeling, first-principles simulations, and machine learning**, bridging the gap between theoretical research and practical applications. I enjoy tackling challenges in **physics, materials science, and data-driven analytics**, turning complex datasets into meaningful insights.  
 

@@ -1,5 +1,7 @@
 ---
 date: "2025-10-13"
+description: "A machine learning analysis that predicts suitable crops from soil measurements and feature importance."
+featuredImage: "/images/soil-field.jpg"
 title: "🌱 Machine Learning for Crop Prediction Based on Soil Data"
 ---
 

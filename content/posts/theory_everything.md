@@ -1,5 +1,7 @@
 ---
 date: "2025-06-13"
+description: "An exploration of Tupper's self-referential formula and how mathematics can encode visual images."
+featuredImage: "/images/theory_everything.jpg"
 title: "🧮 Theory of Everything"
 ---
 <!DOCTYPE html>

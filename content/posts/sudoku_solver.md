@@ -1,5 +1,7 @@
 ---
 date: "2026-01-27"
+description: "An interactive Sudoku game and visual backtracking solver built with Python and Pygame."
+featuredImage: "/images/sudoku_visualizer.gif"
 title: "🧩 Interactive Sudoku Solver"
 ---
 

@@ -1,0 +1,142 @@
+.duru-chat-widget {
+  position: fixed;
+  right: 2rem;
+  bottom: 7rem;
+  z-index: 120;
+  font-family: inherit;
+}
+
+.duru-chat-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 4.4rem;
+  padding: 0 1.5rem;
+  border: 0;
+  border-radius: 0.4rem;
+  color: #fff;
+  background: #1565c0;
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.duru-chat-button:hover,
+.duru-chat-button:focus {
+  background: #0d47a1;
+}
+
+.duru-chat-button:focus-visible,
+.duru-chat-close:focus-visible,
+.duru-chat-open:focus-visible {
+  outline: 0.3rem solid rgba(21, 101, 192, 0.35);
+  outline-offset: 0.2rem;
+}
+
+.duru-chat-panel {
+  position: absolute;
+  right: 0;
+  bottom: 5.4rem;
+  width: min(38rem, calc(100vw - 4rem));
+  height: min(62rem, calc(100vh - 11rem));
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.6rem;
+  background: #fff;
+  box-shadow: 0 1.6rem 4rem rgba(0, 0, 0, 0.22);
+}
+
+.duru-chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4.8rem;
+  padding: 0 1.2rem 0 1.4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #212121;
+  background: #fafafa;
+}
+
+.duru-chat-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.duru-chat-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.duru-chat-open,
+.duru-chat-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 0;
+  border-radius: 0.4rem;
+  color: #212121;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.duru-chat-open:hover,
+.duru-chat-open:focus,
+.duru-chat-close:hover,
+.duru-chat-close:focus {
+  color: #1565c0;
+  background: rgba(21, 101, 192, 0.08);
+  text-decoration: none;
+}
+
+.duru-chat-frame {
+  display: block;
+  width: 100%;
+  height: calc(100% - 4.8rem);
+  border: 0;
+  background: #fff;
+}
+
+.colorscheme-dark .duru-chat-panel {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: #1f1f1f;
+}
+
+.colorscheme-dark .duru-chat-header {
+  border-bottom-color: rgba(255, 255, 255, 0.14);
+  color: #f5f5f5;
+  background: #2b2b2b;
+}
+
+.colorscheme-dark .duru-chat-open,
+.colorscheme-dark .duru-chat-close {
+  color: #f5f5f5;
+}
+
+@media only screen and (max-width: 768px) {
+  .duru-chat-widget {
+    right: 1.4rem;
+    bottom: 6.6rem;
+  }
+
+  .duru-chat-button {
+    min-height: 4.2rem;
+    padding: 0 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .duru-chat-panel {
+    right: -0.4rem;
+    width: calc(100vw - 2rem);
+    height: min(58rem, calc(100vh - 10rem));
+  }
+}

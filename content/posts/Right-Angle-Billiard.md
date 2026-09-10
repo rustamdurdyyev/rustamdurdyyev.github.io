@@ -1,6 +1,8 @@
 ---
 #authors = ["Rustam"]
 date: "2025-09-04"
+description: "A physics explanation of why equal-mass elastic billiard collisions create right-angle paths."
+cardLabel: "90"
 title: "🎱✨ Right-Angle Billiard"
 #description = "Right-Angle Billiard: Collision Angles Explained"
 #tags = [
