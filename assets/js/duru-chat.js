@@ -71,12 +71,20 @@
     }
   });
 
-  var isDesktopBrowser =
-    window.innerWidth >= 1024 &&
-    !window.matchMedia("(pointer: coarse)").matches &&
-    !/Android|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(window.navigator.userAgent);
+  function isDesktopBrowser() {
+    var mobileUserAgent = /Android|iPhone|iPad|iPod|IEMobile|Mobi|Opera Mini/i.test(window.navigator.userAgent);
+    var hasTouch = window.navigator.maxTouchPoints > 0;
+    var hasDesktopPointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    var hasDesktopWidth = window.matchMedia("(min-width: 1024px)").matches;
 
-  if (window.location.pathname === "/" && isDesktopBrowser) {
-    window.setTimeout(openPanel, 700);
+    return hasDesktopWidth && hasDesktopPointer && !hasTouch && !mobileUserAgent;
+  }
+
+  if (window.location.pathname === "/" && isDesktopBrowser()) {
+    window.setTimeout(function () {
+      if (isDesktopBrowser()) {
+        openPanel();
+      }
+    }, 700);
   }
 })();
