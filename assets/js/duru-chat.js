@@ -71,7 +71,7 @@
     }
   });
 
-  if (window.location.pathname === "/") {
+  if (window.location.pathname === "/" && window.matchMedia("(min-width: 769px)").matches) {
     window.setTimeout(openPanel, 700);
   }
 })();
