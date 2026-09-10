@@ -71,7 +71,12 @@
     }
   });
 
-  if (window.location.pathname === "/" && window.matchMedia("(min-width: 769px)").matches) {
+  var isDesktopBrowser =
+    window.innerWidth >= 1024 &&
+    !window.matchMedia("(pointer: coarse)").matches &&
+    !/Android|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(window.navigator.userAgent);
+
+  if (window.location.pathname === "/" && isDesktopBrowser) {
     window.setTimeout(openPanel, 700);
   }
 })();
