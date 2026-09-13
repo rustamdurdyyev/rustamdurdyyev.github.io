@@ -1,8 +1,5 @@
 (function () {
-  var productionChatUrl = "https://rustamdurdyyev.streamlit.app/?embed=true";
-  var localChatUrl = "http://127.0.0.1:8501/?embed=true";
-  var isLocalPreview = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-  var chatUrl = isLocalPreview ? localChatUrl : productionChatUrl;
+  var chatUrl = "https://rustamdurdyyev.streamlit.app/?embed=true";
 
   if (document.getElementById("duru-chat-widget")) {
     return;
@@ -18,15 +15,20 @@
     '<div class="duru-chat-header">' +
     '<div class="duru-chat-title">Ask DuRu</div>' +
     '<div class="duru-chat-actions">' +
-    '<a class="duru-chat-open" href="' + chatUrl + '" target="_blank" rel="noopener" aria-label="Open Ask DuRu in a new tab">' +
-    '<i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i>' +
-    "</a>" +
     '<button class="duru-chat-close" type="button" aria-label="Close Ask DuRu">' +
     '<i class="fa-solid fa-xmark" aria-hidden="true"></i>' +
     "</button>" +
     "</div>" +
     "</div>" +
+    '<div class="duru-chat-frame-shell">' +
     '<iframe id="duru-chat-frame" class="duru-chat-frame" title="Ask DuRu about Rustam" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="clipboard-write"></iframe>' +
+    "</div>" +
+    '<div class="duru-chat-footer">' +
+    '<a class="duru-chat-fullscreen" href="' + chatUrl + '" target="_blank" rel="noopener" aria-label="Open Ask DuRu fullscreen">' +
+    '<i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i>' +
+    "<span>Fullscreen</span>" +
+    "</a>" +
+    "</div>" +
     "</div>" +
     '<button id="duru-chat-button" class="duru-chat-button" type="button" aria-expanded="false" aria-controls="duru-chat-panel">' +
     '<i class="fa-solid fa-comments" aria-hidden="true"></i>' +

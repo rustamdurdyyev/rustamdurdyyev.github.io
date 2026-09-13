@@ -1,6 +1,7 @@
 ---
 date: "2026-02-03"
 description: "A local retrieval-augmented chatbot that answers questions from personal data without external API calls."
+featuredImage: "/images/localrag-chatbot.png"
 cardLabel: "AI"
 title: "🤖 Local AI Chatbot with RAG"
 ---
