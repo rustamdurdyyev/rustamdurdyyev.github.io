@@ -7,7 +7,6 @@ title: "🌱 Machine Learning for Crop Prediction Based on Soil Data"
 
 <h1 style="text-align:center; color: #2c3e50;">Predicting Optimal Crops Based on Soil Measurements </h1>
 
-<img src="/images/soil-field.jpg" alt="A farmer examining soil in a field" style="width:100%; max-width:800px; display:block; margin:20px auto; border-radius:12px;">
 
 <p style="font-size:16px; line-height:1.6; color:#34495e;">
 As a passionate machine learning enthusiast and someone fascinated by agriculture, I love applying data science to real-world problems. Recently, a farmer reached out to me for help in deciding which crop to plant for the best yield. The challenge? Making the most out of the soil’s natural nutrients.

@@ -66,7 +66,6 @@ p.center {
 
 <h1 style="text-align:center;">Tupper’s Self-Referential Formula</h1>
 
-<img src="/images/theory_everything.jpg" alt="Visualization of Tupper's formula plotting itself">
 
 <p>
 Tupper’s formula is one of the most fascinating mathematical curiosities. At first glance, it looks like a complicated inequality, but its power is astonishing: it can encode <strong>any image</strong> of size 106×17 pixels using a single gigantic number! Even more mind-blowing, there exists a constant <code>k</code> that makes the formula literally draw itself — the equation can visualize its own form.  

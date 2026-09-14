@@ -67,7 +67,6 @@ p.center {
 
 <h1 style="text-align:center;">Interactive Sudoku Solver</h1>
 
-<img src="/images/sudoku_visualizer.gif" alt="Sudoku Solver visualizing the backtracking algorithm">
 
 <p>
 This project is an <strong>interactive Sudoku game and visual solver</strong> built using Python and Pygame. It allows users to play Sudoku manually, request hints, and watch the algorithm solve the puzzle in real-time using a backtracking approach.

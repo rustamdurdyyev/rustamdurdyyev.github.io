@@ -7,7 +7,6 @@ title: "⚽📊 Hypothesis Test: Women's vs Men's Soccer"
 
 <h1 style="text-align:center; color: #2c3e50;">Women's vs Men's Soccer Analysis ⚽</h1>
 
-<img src="/images/soccer-pitch.jpg" alt="A soccer pitch for an international match" style="width:100%; max-width:800px; display:block; margin:20px auto; border-radius:12px;">
 
 <p style="font-size:16px; line-height:1.6; color:#34495e;">
 As a lifelong football fan, I’ve spent countless hours watching matches — from thrilling men's World Cup finals to exciting women's international tournaments. The beautiful game has always been my passion, and I can’t help but notice patterns that others might miss.
